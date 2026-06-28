@@ -4,5 +4,9 @@
     "api/assess.js": {
       "maxDuration": 30
     }
-  }
+  },
+  "routes": [
+    { "src": "/app.jsx", "dest": "/public/app.jsx" },
+    { "src": "/", "dest": "/public/index.html" }
+  ]
 }
