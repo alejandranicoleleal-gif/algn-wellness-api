@@ -5,8 +5,12 @@
       "maxDuration": 30
     }
   },
-  "rewrites": [
-    { "source": "/api/assess", "destination": "/api/assess" },
-    { "source": "/(.*)", "destination": "/public/index.html" }
+  "static": {
+    "outputDirectory": "public"
+  },
+  "routes": [
+    { "src": "/api/assess", "dest": "/api/assess" },
+    { "src": "/app.jsx", "dest": "/public/app.jsx" },
+    { "src": "/(.*)", "dest": "/public/index.html" }
   ]
 }
