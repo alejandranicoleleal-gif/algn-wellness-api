@@ -1,16 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/assess.js": {
-      "maxDuration": 30
-    }
-  },
-  "static": {
-    "outputDirectory": "public"
-  },
-  "routes": [
-    { "src": "/api/assess", "dest": "/api/assess" },
-    { "src": "/app.jsx", "dest": "/public/app.jsx" },
-    { "src": "/(.*)", "dest": "/public/index.html" }
-  ]
+    "api/assess.js": { "maxDuration": 30 },
+    "api/index.js": { "maxDuration": 10 }
+  }
 }
