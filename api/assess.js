@@ -6,7 +6,11 @@ const ALLOWED_ORIGINS = [
   "http://localhost:3000",
   "http://localhost:5173",
   "https://algn-wellness.com",
-  "https://www.algn-wellness.com"
+  "https://www.algn-wellness.com",
+  "https://www.algnbydra.com",
+  "https://algnbydra.com",
+  "https://algn-api-git-main-algn-wellness.vercel.app",
+  "null"
 ];
 
 export default async function handler(req, res) {
